@@ -1,0 +1,181 @@
+#row {
+    align-content: center;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+#left-column,
+#centre-column,
+#right-column {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#left-column {
+    background-color: aqua;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+}
+
+.user-profile-tab,
+.home-tab,
+.schedule-tab,
+.chores-tab,
+.team-tab,
+.chat-bot-tab,
+.progress-status-tab,
+.settings-tab,
+.extra-feature-tab,
+.search-tab,
+.mic-tab,
+.team-mates-tab,
+.add-member-tab,
+.download-report,
+.add-report,
+.hamburger-menu,
+.chore-progress-histogram,
+.active-project-name,
+.active-project-due-date,
+.active-project-progress-bar,
+.active-project-team,
+.team-chat-tab,
+.updates-page-tab {
+    background-color: lightpink;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.extra-feature-tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra-feature-tab div {
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#centre-column {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.search-bar {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    border: none;
+    flex: 1;
+    padding: 5px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.mic-bubble {
+    background-color: lightpink;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 8px; /* Adjust as needed */
+}
+
+
+
+.members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.members p {
+    margin: 5px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row-1 div,
+.row-2 div,
+.row-3 div {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.row-1 div:last-child,
+.row-2 div:last-child,
+.row-3 div:last-child {
+    margin-right: 0;
+}
+
+.left-column-reports {
+    display: flex;
+    flex-direction: column;
+}
+
+.chore-progress-histogram {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active-project-name,
+.active-project-due-date,
+.active-project-progress-bar,
+.active-project-team {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.active-project-progress-bar {
+    width: 100%;
+}
+
+#right-column {
+    background-color: cadetblue;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.team-chat-tab,
+.updates-page-tab {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
