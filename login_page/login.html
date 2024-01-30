@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <!-- Username Input with Inline CSS -->
+            <input type="text" id="username" style="border: 1px solid #ccc; padding: 8px;" placeholder="Username" required>
+
+            <!-- Password Input with Internal CSS -->
+            <input type="password" id="password" class="password-input" placeholder="Password" required>
+
+            <!-- Login Button with External CSS Class -->
+            <button type="button" class="login-button" onclick="validateLogin()">Login</button>
+
+            <!-- Dynamic Text using JavaScript -->
+            <p id="message">Please enter your credentials.</p>
+        </form>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

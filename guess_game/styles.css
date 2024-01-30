@@ -1,0 +1,20 @@
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dynamic change in text*/
+#result {
+    font-size: 18px;
+    margin-top: 10px;
+}
+

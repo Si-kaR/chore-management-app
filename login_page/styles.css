@@ -1,0 +1,29 @@
+/* External CSS */
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Internal CSS */
+.password-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/* Dynamic Text Styling */
+#message {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* External CSS Class */
+.login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
